@@ -1,0 +1,18 @@
+.calendar>div{
+    margin: 30px;
+    margin-left: 10%;
+    width: 90%;
+    padding: 0rem 5rem ;
+    height: 50vh;
+    max-width: 1100px;
+}
+.fc-event{
+    background: rgb(34, 125, 161)!important;
+}
+.fc .fc-timegrid-slot{
+    height: 2.5rem!important;
+
+}
+td{
+    border: 1px solid gray;
+}

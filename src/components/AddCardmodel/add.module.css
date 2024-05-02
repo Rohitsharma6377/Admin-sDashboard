@@ -1,0 +1,45 @@
+.container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    color: white;
+}
+.container>div{
+    margin-top: 2rem;
+}
+.label{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.input{
+    color: white;
+    font-family: inherit;
+    margin-top: 12px;
+    display: block;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid rgba(98, 98, 98,);
+    font-size: 1.2rem;
+    font-weight: 300;
+    padding: 10px;
+    width: 100%;
+    border-radius: 8px;
+    resize: none;
+}
+.save{
+    width: 6rem;
+    align-self: flex-end;
+    margin-top: 1.5rem;
+    background-color:rgb(192, 93, 0);
+    border: none;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+
+
+}
+
+.save:disabled{
+    background-color: grey;
+}

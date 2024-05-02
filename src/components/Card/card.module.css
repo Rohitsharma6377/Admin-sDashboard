@@ -1,0 +1,40 @@
+.Cards{
+    height: 60vh;
+    
+    width: 60vh;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+.cardhead{
+   margin-top: -5%;
+   height: 50px;
+   text-align: center;
+}
+
+.spn{
+   
+    font-size: 1.4rem;
+    font-weight: 1000;
+}
+
+@media screen and (max-width: 640px){
+    .Cards{
+        height: 30vh;
+        
+        width: 40vh;
+        margin-left: 5%;
+        margin-top: 2%;
+    }
+}
+
+.contain{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   margin-left: 5%;
+   margin-top: 5%;
+   gap: 30px;
+}
+.contain>:nth-child(2){
+    height: 40vh;
+    width: 60vh;
+}
